@@ -20,7 +20,7 @@
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
               <img
-                src="images/foodyLogo.png"
+                src="../images/logos/foodyLogo.png"
                 alt="Logo"
                 width="40"
                 height="40"
@@ -78,13 +78,20 @@
                 />
               </div>
               <div class="profileDiv">
-                <img
-                  src="../images/userProfile.png"
+                <button id="profileButton">
+                  <img
+                  src="../images/logos/userProfile.png"
                   alt="profileImage"
                   width="40"
                   height="40"
                   class="d-inline-block align-text-top"
                 />
+                </button>
+                <div id="toggleBar" class="hidden">
+                  <p>Profile Information</p>
+                  <p>Settings</p>
+                  <p>Log Out</p>
+              </div>
               </div>
             </div>
           </div>
@@ -180,5 +187,7 @@
       
        
     </div>
+
+    <script src="../js/index.js"></script>
   </body>
 </html>

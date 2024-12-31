@@ -34,7 +34,19 @@
 
 
 
-#Nav->24/12/25
+#Nav->24/12/24
 [
   created index.html using bootstrap5.
+]
+
+
+
+#Ankit ->31/12/24
+[
+  created Login and Regsiter Page
+]
+
+#Nav->31/12/24
+[
+  modified index.html and added toggle bar to profile
 ]

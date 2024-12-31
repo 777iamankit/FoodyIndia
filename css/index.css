@@ -206,3 +206,28 @@ body {
 .restaurant-item:hover .restaurant-name {
   opacity: 0.5; 
 }
+
+
+/* /////////////////////////////////////////////////////toggleBarprofile////////////////////////////////////////////////////////////// */
+#toggleBar {
+    display: none;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: absolute;
+    top: 50px; /* Adjust based on where you want the toggle to appear */
+    right: 20px;
+    width: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+.profileDiv{
+  position: relative;
+}
+
+.profileDiv:hover{
+  font-size: larger;
+}
