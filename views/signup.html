@@ -7,15 +7,14 @@
 <body>
   <div class="container">
     <form action="/signup" method="post">
-      <h3 style="font-size: x-large;margin: 0px;">Sign Up</h3>
+      <h3 style="font-size: x-large;margin-left: 4%;">Sign Up</h3>
       <input type="text" class="inputBox" name="name" placeholder="Full Name"><br>
       <input type="text" class="inputBox" name="email" placeholder="Email"><br>
-      <input type="checkbox">I agree to foodyIndia Terms of service, privacy policy and Content Policies <br>
-      <button type="submit">Create Accout</button>
-      <p id="or">or</p>
-      <button >Sign in with Google</button>
-      <p >Already have an account?</p>
-      <a href="#logIn">Log in</a>
+      <input type="checkbox" style="margin-top: 15px;">I agree to foodyIndia <span style="color: red;"> Terms of service</span>,<span style="color: red;"> privacy policy</span> and <span style="color: red;">Content Policies</span> <br>
+      <button class="createAccount" type="submit">Create Accout</button>
+      <p style="text-align: center; margin-top: 2px; margin-bottom: 2%;">or</p>
+      <button  class="signIn">Sign in with Google</button>
+      <footer> <p class="login">Already have an account?<a href="#logIn"> Log in</a></p></footer>
     </form>
   </div>
 </body>

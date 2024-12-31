@@ -9,14 +9,44 @@ body{
 
 .container{
   border: 2px solid black;
-  height: 60%;
-  width: 25%;
+  min-height: 60px;
+  width: 300px;
   display: flex;
-  justify-content: center;
-
+  border-radius: 10px;  
 }
 
 .inputBox{
-  height: 2px;
-  wi
+  height: 35px;
+  width: 90%;
+  margin: 10px;
+  margin-top: 15px;
+  border-radius: 7px;
+}
+
+.createAccount{
+  height: 35px;
+  width: 90%;
+  margin: 10px;
+  margin-top: 20%;
+  border-radius: 7px;
+  background-color: rgb(2, 79, 2);
+}
+
+.signIn{
+  height: 35px;
+  width: 90%;
+  margin: 10px;
+  margin-top: 1%;
+  border-radius: 7px;
+
+}
+
+.login{
+  margin-top: 12%;
+  margin-left: 5%;
+ 
+}
+
+a{
+  text-decoration: none;
 }
