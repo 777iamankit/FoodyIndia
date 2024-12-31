@@ -78,13 +78,23 @@
                 />
               </div>
               <div class="profileDiv">
-                <img
-                  src="../images/userProfile.png"
-                  alt="profileImage"
-                  width="40"
-                  height="40"
-                  class="d-inline-block align-text-top"
-                />
+                <div class="dropdown">
+                  <img
+                    src="../images/userProfile.png"
+                    alt="profileImage"
+                    width="40"
+                    height="40"
+                    class="d-inline-block align-text-top dropdown-toggle"
+                    id="profileDropdown"
+                    onclick="toggleDropdown()"
+                    style="cursor: pointer;"
+                  />
+                  <ul class="dropdown-menu dropdown-menu-end" id="profileDropdownMenu">
+                    <li><a href="#">sign-up</a></li>
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">support</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -180,5 +190,11 @@
       
        
     </div>
+
+
+    <script src="../js/index.js"></script>
   </body>
 </html>
+
+
+sdlfkn
