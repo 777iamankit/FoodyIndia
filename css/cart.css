@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0; /* Remove default browser margins */
+  padding: 0; /* Remove default browser padding */
+  box-sizing: border-box; /* Include padding and border in element dimensions */
+}
+
+
+
+
+body {
+  /* margin: 0; */
+  font-family: Arial Black, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.mainDiv {
+  margin: 3%;
+}
+
+/* navigationBar */
+.navBar {
+  font-weight: 500;
+}
+.collapse {
+  margin-left: 25%;
+}
+.cartDiv {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////////////////////////////////////////////////toggleBarprofile////////////////////////////////////////////////////////////// */
+#toggleBar {
+  display: none;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  position: absolute;
+  top: 50px; /* Adjust based on where you want the toggle to appear */
+  right: 20px;
+  width: 200px;
+}
+
+.hidden {
+  display: none;
+}
+
+.profileDiv{
+position: relative;
+}
+
+.profileDiv:hover{
+font-size: larger;
+}
+
+
+
+
+/*////////////////////////////////////////////////////////////////cart functions////////////////////////////////////////////////*/
+
+.localButtons {
+  display: flex;
+  justify-content: center; /* Align buttons to the right */
+  width: 100%; /* Optional: Ensure full-width for the container */
+  height: auto; /* Adjust based on content */
+}
+
+.btn{
+  margin: 5px;
+}
+
+.buttonText{
+  display: flex;
+  justify-content: center;
+  height: 50%;
+  align-items: center;
+  color: rgb(247, 183, 7);
+ 
+}
