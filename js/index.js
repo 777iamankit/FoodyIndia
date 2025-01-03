@@ -1,7 +1,14 @@
 //adding togglebar to profile button
-console.log(document.getElementById('profileButton'))
-document.getElementById('profileButton').addEventListener('click',function(){
+
+const profileButton=document.querySelector('#profileButton');
+profileButton.addEventListener('click',event=>{
   
   var toggleBar=document.getElementById('toggleBar');
   toggleBar.classList.toggle('hidden');
+})
+
+
+const cartButton=document.querySelector('#my-cart');
+cartButton.addEventListener('click',event=>{
+ window.location.href='./cart.html';
 })
