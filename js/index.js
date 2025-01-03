@@ -1,14 +1,20 @@
-//adding togglebar to profile button
-
-const profileButton=document.querySelector('#profileButton');
-profileButton.addEventListener('click',event=>{
-  
-  var toggleBar=document.getElementById('toggleBar');
-  toggleBar.classList.toggle('hidden');
-})
 
 
-const cartButton=document.querySelector('#my-cart');
-cartButton.addEventListener('click',event=>{
- window.location.href='./cart.html';
-})
+// Toggle the dropdown menu visibility
+function toggleDropdown() {
+    const dropdownMenu = document.getElementById('profileDropdownMenu');
+    dropdownMenu.classList.toggle('show');
+  }
+
+  // Close dropdown if clicking outside
+  document.addEventListener('click', (event) => {
+    const profileImage = document.getElementById('profileDropdown');
+    const dropdownMenu = document.getElementById('profileDropdownMenu');
+
+    console.log(profileImage + dropdownMenu)
+
+    if (!profileImage.contains(event.target) && !dropdownMenu.contains(event.target)) {
+      dropdownMenu.classList.remove('show');
+    }
+  });
+
