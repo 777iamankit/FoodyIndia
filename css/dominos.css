@@ -12,7 +12,7 @@ html,body{
   
 }
 
-.container{
+.box{
   margin: 15px;
   border: 1px solid black;
   width: 100%;
@@ -21,9 +21,31 @@ html,body{
 }
 
 
-.container img {
+.box img {
+  margin: 0;
+  padding: 0;
   width: 30%;
   height: 100%;
   object-fit: cover; /* Ensures the image covers the container */
   border-radius: 5px;
 }
+
+.button-container{
+  height: 100%;
+  width: 20%;
+  float: right;
+}
+
+.btn{
+  float: right;
+  margin: 10px;
+  width: 200px;
+  background-color: #ffc107 !important;
+}
+
+.btn:hover{
+  background-color: rgba(43, 184, 30, 0.9) !important;
+  width: 210px;
+  height: 25%;
+}
+
