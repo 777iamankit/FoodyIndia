@@ -123,7 +123,26 @@ body {
   transition: opacity 0.3s ease; 
   text-align: center;
   z-index: 2; 
+  display: flex;
+  justify-content: space-between;
+  
 }
+
+.order-now div {
+  padding: 10px 20px; /* Add some padding for better appearance */
+  border: 1px solid #ccc; /* Optional: Add border to resemble buttons */
+  background-color: #ddd; 
+  cursor: pointer; /* Change cursor to pointer on hover */
+  color: black;
+}
+
+.order-now div:hover {
+  color: black;
+  background-color: #f7ef0d;
+
+}
+
+
 
 .food-item:hover .order-now {
   opacity: 1; 
